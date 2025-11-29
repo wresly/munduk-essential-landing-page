@@ -9,8 +9,8 @@ export default function About() {
 
                 </div>
             </Hero>
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
-                <Image className="rounded-md h-[500px] w-[600px]" src={"/imgs/about1.jpg"} width={500} height={500} alt="" />
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 lg:gap-20 gap-5 mt-20">
+                <Image className="rounded-md lg:h-[500px] lg:w-[600px]" src={"/imgs/dining-1.jpg"} width={500} height={500} alt="" />
                 <div className="lg:px-16">
                     <div className="col-span-1 font-playfair mb-5">
                         <h1 className="font-bold text-4xl mb-1">
@@ -31,7 +31,7 @@ export default function About() {
                     </div>
                 </div>
             </div>
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 lg:gap-20 gap-5 mt-20">
                 <div className="lg:px-16">
                     <div className="col-span-1 font-playfair">
                         <h1 className="font-bold text-4xl mb-10">
@@ -53,10 +53,10 @@ export default function About() {
                         <p>Welcome to a garden that grows more than food—it grows connection, resilience, and a shared future rooted in nature.</p>
                     </div>
                 </div>
-                <Image className="rounded-md lg:col-start-2 row-start-1 h-[500px] w-[600px]" src={"/imgs/permaculture-garden.jpg"} width={500} height={500} alt="" />
+                <Image className="rounded-md lg:col-start-2 row-start-1 lg:h-[500px] lg:w-[600px]" src={"/imgs/garden.jpg"} width={500} height={500} alt="" />
             </div>
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
-                <Image className="rounded-md h-[500px] w-[600px]" src={"/imgs/exp/cookingclass.jpg"} width={500} height={500} alt="" />
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 lg:gap-20 gap-5 mt-20">
+                <Image className="rounded-md lg:h-[500px] lg:w-[600px]" src={"/imgs/cookingclass.jpg"} width={500} height={500} alt="" />
                 <div className="lg:p-16">
                     <div className="col-span-1 font-playfair mb-10">
                         <h1 className="font-bold text-4xl mb-1">

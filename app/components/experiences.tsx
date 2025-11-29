@@ -12,14 +12,16 @@ export default function Experiences() {
                     <div className="lg:min-h-80 min-h-50 relative group lg:row-span-2 lg:col-span-2">
                         <div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-tl-4xl bg-[url(/imgs/exp/restaurant.jpg)] bg-cover bg-center transition-transform duration-700 ease-out group-hover:scale-105" />
                         <div className="absolute inset-0 rounded-lg bg-black/50 lg:rounded-tl-4xl transition-transform duration-700 ease-out group-hover:scale-105" />
-                        <div className="relative flex h-full flex-col overflow-hidden">
-                            <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                                <p className="mt-2 text-lg font-medium tracking-tight text-white">Dining</p>
-                                <p className="mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-w-lg text-sm/6 text-gray-400">
-                                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
-                                </p>
+                        <Link href={"/dining"}>
+                            <div className="relative flex h-full flex-col overflow-hidden">
+                                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white">Dining</p>
+                                    <p className="mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 max-w-lg text-sm/6 text-gray-400">
+                                        Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
+                        </Link>
                         <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-tl-4xl" />
                     </div>
                     {/* <div className="lg:min-h-80 min-h-50 relative group lg:row-start-1 lg:col-start-5 lg:col-span-2">

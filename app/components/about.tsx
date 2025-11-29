@@ -7,7 +7,7 @@ export default function About() {
             <div className="max-w-340 px-4 py-10 sm:px-6 lg:px-15 lg:py-50 mx-auto">
                 <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
                     <div className="lg:col-span-7">
-                        <div className="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10">
+                        <div className="grid grid-cols-12 gap-2 sm:gap-6 items-center lg:-translate-x-10 lg:h-[500px]">
                             {/* <div className="col-span-3">
                                 <Image className="rounded-xl" width={500} height={500} src="/imgs/about1.jpg" alt="Features Image" />
                             </div> */}
@@ -17,7 +17,7 @@ export default function About() {
                             </div>
 
                             <div className="col-span-7">
-                                <Image className="rounded-xl" width={500} height={500} src="/imgs/about3.jpg" alt="Features Image" />
+                                <Image className="rounded-xl" width={500} height={500} src="/imgs/waterfall.jpg" alt="Features Image" />
                             </div>
                         </div>
                     </div>

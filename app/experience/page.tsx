@@ -62,7 +62,7 @@ export default function Experience() {
             id: "3",
             name: "Mindfulness Meditation",
             price: "200.000",
-            image: "/imgs/exp/yoga.jpg",
+            image: "/imgs/mindfullness-meditation.jpg",
         },
         {
             id: "4",
@@ -111,7 +111,7 @@ export default function Experience() {
                 </div>
             </HeroSection>
             {/* SPA Section */}
-            <div className="m-20" id="spa">
+            <div className="lg:m-20 m-10" id="spa">
                 <div className="lg:grid lg:grid-cols-3 lg:gap-20 lg:p-16">
                     <div className="col-span-1 font-playfair">
                         <h1 className="font-bold text-4xl">
@@ -136,7 +136,7 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-5 py-10 flex flex-col items-center">
+                <div className="w-full mt-10 flex flex-col items-center">
                     <h2 className="font-playfair font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
                         Our Signature Treatments
                     </h2>
@@ -217,7 +217,7 @@ export default function Experience() {
                     </Carousel > */}
                 </div >
             </div >
-            <div className="m-20 mx-25">
+            <div className="lg:m-20 m-10">
                 <p className="text-2xl">A Sanctuary Surrounded by Nature</p>
                 <p>Designed to blend seamlessly with the surrounding jungle, our open, nature-inspired spa spaces offer a serene escape. The sound of flowing water, cool mountain air, and lush greenery create an atmosphere of pure tranquility — an ideal setting for personal renewal.</p>
                 <p className="text-3xl">Why Choose Essentially Munduk Spas</p>
@@ -230,7 +230,7 @@ export default function Experience() {
                 </ul>
             </div>
             {/* Yoga Section */}
-            <div className="m-20" id="yoga-spiritual">
+            <div className="lg:m-20 m-10" id="yoga-spiritual">
                 <div className="lg:grid lg:grid-cols-3 lg:gap-20 lg:p-16">
                     <div className="col-span-1 font-playfair">
                         <h1 className="font-bold text-4xl">
@@ -244,7 +244,7 @@ export default function Experience() {
                         </p>
                     </div>
                 </div>
-                <div className="w-full px-5 py-10 flex flex-col items-center">
+                <div className="w-full lg:px-5 py-10 flex flex-col items-center">
                     <h2 className="font-playfair font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
                         Yoga & Meditation Packages
                     </h2>
@@ -287,7 +287,7 @@ export default function Experience() {
                 </div >
             </div >
             {/* Trekking Section */}
-            <div className="m-20" id="junggle-trekking">
+            <div className="lg:m-20 m-10" id="junggle-trekking">
                 <div className="lg:grid lg:grid-cols-3 lg:gap-20 lg:p-16">
                     <div className="col-span-1 font-playfair">
                         <h2 className="text-base/7 font-semibold text-indigo-400">Trekking</h2>
@@ -302,7 +302,7 @@ export default function Experience() {
                         </p>
                     </div>
                 </div>
-                <div className="w-full px-5 py-10 flex flex-col items-center">
+                <div className="w-full lg:px-5 py-10 flex flex-col items-center">
                     <h2 className="text-center text-base/7 font-semibold text-indigo-400">Trekking Packages</h2>
                     <h2 className="font-playfair font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
                         Junggle Trekking Packages
@@ -345,8 +345,8 @@ export default function Experience() {
                     </Carousel >
                 </div >
             </div >
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
-                <Image className="rounded-md h-[500px] w-[600px]" src={"/imgs/exp/cookingclass.jpg"} width={500} height={500} alt="" />
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 gap-20 ">
+                <Image className="rounded-md h-[500px] w-[600px]" src={"/imgs/cookingclass.jpg"} width={500} height={500} alt="" />
                 <div className="lg:p-16">
                     <div className="col-span-1 font-playfair mb-10">
                         <h1 className="font-bold text-4xl mb-1">

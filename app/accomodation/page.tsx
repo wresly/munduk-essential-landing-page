@@ -7,7 +7,7 @@ import { House, Bath, BedDouble } from "lucide-react";
 export default function Accomodation() {
     return (
         <>
-            <HeroSection background="/imgs/about1.jpg" >
+            <HeroSection background="/imgs/acc-hero.jpg" >
                 <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
                     <div className="text-center">
                         <h1 className={"font-playfair text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl"}>
@@ -16,8 +16,8 @@ export default function Accomodation() {
                     </div>
                 </div>
             </HeroSection>
-            <div className="p-40 grid lg:grid-cols-2 gap-10" id="cottage">
-                <Image className="h-[500px]" src={"/imgs/about1.jpg"} width={500} height={500} alt="" />
+            <div className="lg:p-40 p-10 grid lg:grid-cols-2 gap-10" id="cottage">
+                <Image className="h-[500px] object-cover" src={"/imgs/acc-1.jpg"} width={500} height={500} alt="" />
                 {/* <h1 className="lg:col-span-1 font-playfair font-bold text-4xl">Relax in Spaces Made for You</h1> */}
                 <div>
                     <h1 className="text-4xl mb-5 font-playfair font-bold">Cottage</h1>
@@ -58,7 +58,7 @@ export default function Accomodation() {
                     </p>
                 </div>
             </div>
-            <div className="p-40 grid lg:grid-cols-2 gap-10" id="standard">
+            <div className="lg:p-40 p-10 grid lg:grid-cols-2 gap-10" id="standard">
                 {/* <h1 className="lg:col-span-1 font-playfair font-bold text-4xl">Relax in Spaces Made for You</h1> */}
                 <div>
                     <h1 className="text-4xl font-playfair font-bold mb-5">Standard Cottage</h1>
@@ -94,7 +94,7 @@ export default function Accomodation() {
                         Our Standard Cottage offers a peaceful hideaway surrounded by gardens of flowers and indigenous plants. Set along a gentle tropical pathway, this cozy space is crafted from natural materials that reflect the beauty of its surroundings. Inside, you’ll find a warm and simple comfort, while outside, soft views of the valley and green hillside bring nature close to your doorstep. It’s an ideal choice for guests seeking a calm, nature-focused stay with all the essentials for a relaxing retreat.
                     </p>
                 </div>
-                <Image className="h-[500px]" src={"/imgs/about1.jpg"} width={500} height={500} alt="" />
+                <Image className="h-[500px] lg:col-start-2 row-start-1 object-cover" src={"/imgs/acc-2.jpg"} width={500} height={500} alt="" />
             </div>
             {/* <div className="mb-20 px-16 w-full grid lg:grid-cols-2 gap-y-10">
                 {Array.from({ length: 6 }).map((_, index) =>

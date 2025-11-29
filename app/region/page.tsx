@@ -7,8 +7,8 @@ export default function Region() {
             <HeroSection background="/imgs/discover.jpg">
                 <div></div>
             </HeroSection>
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
-                <Image className="rounded-md h-[500px] w-[600px]" src={"/imgs/lake-forest.jpg"} width={500} height={500} alt="" />
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 lg:gap-20 gap-5">
+                <Image className="rounded-md lg:h-[500px] lg:w-[600px]" src={"/imgs/lake-forest.jpg"} width={500} height={500} alt="" />
                 <div className="lg:p-16">
                     <div className="col-span-1 font-playfair mb-5">
                         <h1 className="font-bold text-4xl mb-1">
@@ -26,8 +26,8 @@ export default function Region() {
                     </div>
                 </div>
             </div>
-            <div className="m-20 grid lg:grid-cols-2 gap-20 ">
-                <Image className="rounded-md h-[500px] w-[600px] lg:col-start-2" src={"/imgs/climate1.jpg"} width={500} height={500} alt="" />
+            <div className="lg:m-20 m-10 grid lg:grid-cols-2 lg:gap-20 gap-5">
+                <Image className="rounded-md lg:h-[500px] lg:w-[600px] lg:col-start-2" src={"/imgs/climate1.jpg"} width={500} height={500} alt="" />
                 <div className="lg:p-16 lg:col-start-1 lg:row-start-1">
                     <div className="col-span-1 font-playfair mb-5">
                         <h1 className="font-bold text-4xl mb-1">

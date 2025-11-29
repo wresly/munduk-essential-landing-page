@@ -37,8 +37,8 @@ export default function HeroSection({ children, background }: { children: React.
                                 width={500}
                                 height={500}
                                 alt=""
-                                src="/imgs/Logo.png"
-                                className="h-8 w-auto"
+                                src="/logo.png"
+                                className="h-15 w-auto"
                             />
                             <span className="font-playfair text-white">Essential Munduk Bali</span>
                         </Link>
@@ -78,10 +78,10 @@ export default function HeroSection({ children, background }: { children: React.
                                     width={500}
                                     height={500}
                                     alt=""
-                                    src="/imgs/Logo.png"
+                                    src="/logo.png"
                                     className="h-8 w-auto"
                                 />
-                                <span className={"font-playfair"}>Essential Munduk Bali</span>
+                                <span className={"font-playfair text-white"}>Essential Munduk Bali</span>
                             </Link>
                             <button
                                 type="button"
