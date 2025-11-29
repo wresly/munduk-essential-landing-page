@@ -1,6 +1,7 @@
 import Image from "next/image"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, } from "@/components/ui/carousel"
 import { House, Bath, BedDouble } from "lucide-react";
+import Link from "next/link";
 
 export default function Rooms() {
     return (
@@ -15,7 +16,7 @@ export default function Rooms() {
                 <CarouselContent className="py-10 col-span-2">
                     <CarouselItem className="md:basis-1/1 lg:basis-1/2 flex justify-center" >
                         <div className="w-full max-w-[500px]">
-                            <a href="#" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
+                            <Link href="/accomodation#cottage" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
                                 <Image alt="" src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
 
                                 <div className="mt-2">
@@ -60,12 +61,12 @@ export default function Rooms() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </CarouselItem>
                     <CarouselItem className="md:basis-1/1 lg:basis-1/2 flex justify-center" >
                         <div className="w-full max-w-[500px]">
-                            <a href="#" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
+                            <Link href="/accomodation#standard" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
                                 <Image alt="" src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
 
                                 <div className="mt-2">
@@ -110,7 +111,7 @@ export default function Rooms() {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </div>
                     </CarouselItem>
                 </CarouselContent >

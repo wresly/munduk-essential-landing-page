@@ -16,7 +16,7 @@ export default function Accomodation() {
                     </div>
                 </div>
             </HeroSection>
-            <div className="p-40 grid lg:grid-cols-2 gap-10">
+            <div className="p-40 grid lg:grid-cols-2 gap-10" id="cottage">
                 <Image className="h-[500px]" src={"/imgs/about1.jpg"} width={500} height={500} alt="" />
                 {/* <h1 className="lg:col-span-1 font-playfair font-bold text-4xl">Relax in Spaces Made for You</h1> */}
                 <div>
@@ -58,7 +58,7 @@ export default function Accomodation() {
                     </p>
                 </div>
             </div>
-            <div className="p-40 grid lg:grid-cols-2 gap-10">
+            <div className="p-40 grid lg:grid-cols-2 gap-10" id="standard">
                 {/* <h1 className="lg:col-span-1 font-playfair font-bold text-4xl">Relax in Spaces Made for You</h1> */}
                 <div>
                     <h1 className="text-4xl font-playfair font-bold mb-5">Standard Cottage</h1>
