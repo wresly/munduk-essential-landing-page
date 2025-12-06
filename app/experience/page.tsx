@@ -4,6 +4,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import Footer from "../components/footer";
+import { imageConfigDefault } from "next/dist/shared/lib/image-config";
 
 export default function Experience() {
     const dataSPA = [
@@ -43,6 +44,27 @@ export default function Experience() {
             desc: "Wether you seek relies for over exerted muscle, or simply want to let your mind and body escape realty your Gumi Ayu SPA technician will customize a massage using specialty products and techniques essential to ultimate relaxation and rejuvenation  Based on your particular areas of focus, your massage therapist may borrow from a variety of methods including  shiatsu, swedish, deep tissue and reflexology",
             image: "/imgs/exp/spa.jpg",
         },
+    ]
+
+    const dataSPAPackages = [
+        {
+            name: "Gumi Ayu SPA Sanctuary",
+            price: "200.000",
+            image: "/imgs/exp/spa.jpg",
+            path: "experience/spa-package/1",
+        },
+        {
+            name: "Gumi Ayu SPA Escape",
+            price: "200.000",
+            image: "/imgs/exp/spa.jpg",
+            path: "experience/spa-package/2",
+        },
+        {
+            name: "Asian Discovery",
+            price: "200.000",
+            image: "/imgs/exp/spa.jpg",
+            path: "experience/spa-package/3",
+        }
     ]
 
     const dataYoga = [
@@ -174,6 +196,49 @@ export default function Experience() {
                         <p>Wether you seek relies for over exerted muscle, or simply want to let your mind and body escape realty your Gumi Ayu SPA technician will customize a massage using specialty products and techniques essential to ultimate relaxation and rejuvenation  Based on your particular areas of focus, your massage therapist may borrow from a variety of methods including  shiatsu, swedish, deep tissue and reflexology
                         </p>
                     </div>
+                    <div className="w-full lg:m-20 m-10" id="yoga-spiritual">
+                        <div className="w-full lg:px-5 py-10 flex flex-col items-center">
+                            <h2 className="font-playfair font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+                                SPA Packages
+                            </h2>
+                            <Carousel
+                                opts={{ align: "center", loop: false }}
+                                className="w-full mx-auto grid-cols-2">
+                                <CarouselContent className="py-10 col-span-2">
+                                    {dataSPAPackages.map((spa, index) => (
+                                        <CarouselItem key={index} className="md:basis-1/1 lg:basis-1/3 flex justify-center" >
+                                            <div className="w-full max-w-[500px]">
+                                                <Image alt="" src={spa.image} width={500} height={500} className="h-56 w-full rounded-md object-cover object-center" />
+
+                                                <div className="mt-2 flex justify-between">
+                                                    <div>
+                                                        <div>
+                                                            <p className="sr-only">SPA Package Name</p>
+                                                            <p className="font-medium">{spa.name}</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className="sr-only">Price</p>
+                                                            <p className="text-sm text-gray-500">$240,000</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <Button>
+                                                            <Link href={spa.path}>Learn More</Link>
+                                                        </Button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </CarouselItem>
+                                    ))
+                                    }
+                                </CarouselContent >
+                                <div className="flex justify-center items-center gap-4 mt-4">
+                                    <CarouselPrevious className="relative left-0 top-0 translate-y-0" />
+                                    <CarouselNext className="relative right-0 top-0 translate-y-0" />
+                                </div>
+                            </Carousel >
+                        </div >
+                    </div >
                     {/* <Carousel
                         opts={{ align: "center", loop: false }}
                         className="w-full mx-auto grid-cols-2">
