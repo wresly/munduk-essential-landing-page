@@ -193,7 +193,7 @@ export default function Experience() {
                         <p>A calming ritual with fresh local flowers and warm water to soothe the senses and lift the spirit.
                         </p>
                         <p className="mt-5 text-2xl">Custumize Massage</p>
-                        <p>Wether you seek relies for over exerted muscle, or simply want to let your mind and body escape realty your Gumi Ayu SPA technician will customize a massage using specialty products and techniques essential to ultimate relaxation and rejuvenation  Based on your particular areas of focus, your massage therapist may borrow from a variety of methods including  shiatsu, swedish, deep tissue and reflexology
+                        <p>Whether you seek relies for over exerted muscle, or simply want to let your mind and body escape realty your Gumi Ayu SPA technician will customize a massage using specialty products and techniques essential to ultimate relaxation and rejuvenation based on your particular areas of focus, your massage therapist may borrow from a variety of methods including  shiatsu, swedish, deep tissue and reflexology
                         </p>
                     </div>
                     <div className="w-full lg:m-20 m-10" id="yoga-spiritual">
@@ -352,12 +352,12 @@ export default function Experience() {
                 </div >
             </div >
             {/* Trekking Section */}
-            <div className="lg:m-20 m-10" id="junggle-trekking">
+            <div className="lg:m-20 m-10" id="jungle-trekking">
                 <div className="lg:grid lg:grid-cols-3 lg:gap-20 lg:p-16">
                     <div className="col-span-1 font-playfair">
                         <h2 className="text-base/7 font-semibold text-indigo-400">Trekking</h2>
                         <h1 className="font-bold text-4xl">
-                            Junggle Trekking
+                            Jungle Trekking
                         </h1>
                         <p className="font-cormorant mt-5">Where Indonesian Healing Traditions Meet Natural Serenity</p>
                     </div>
@@ -370,7 +370,7 @@ export default function Experience() {
                 <div className="w-full lg:px-5 py-10 flex flex-col items-center">
                     <h2 className="text-center text-base/7 font-semibold text-indigo-400">Trekking Packages</h2>
                     <h2 className="font-playfair font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
-                        Junggle Trekking Packages
+                        Jungle Trekking Packages
                     </h2>
                     <Carousel
                         opts={{ align: "center", loop: false }}

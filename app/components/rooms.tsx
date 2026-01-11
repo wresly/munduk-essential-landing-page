@@ -17,7 +17,7 @@ export default function Rooms() {
                     <CarouselItem className="md:basis-1/1 lg:basis-1/2 flex justify-center" >
                         <div className="w-full max-w-[500px]">
                             <Link href="/accomodation#cottage" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
-                                <Image alt="" src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
+                                <Image alt="" src="/imgs/room.png" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
 
                                 <div className="mt-2">
                                     <dl>
@@ -38,7 +38,7 @@ export default function Rooms() {
                                             <div className="mt-1.5 sm:mt-0">
                                                 <p className="text-gray-500">Room Area</p>
 
-                                                <p className="font-medium">1000 Sqm</p>
+                                                <p className="font-medium">56 Sqm</p>
                                             </div>
                                         </div>
 
@@ -67,7 +67,7 @@ export default function Rooms() {
                     <CarouselItem className="md:basis-1/1 lg:basis-1/2 flex justify-center" >
                         <div className="w-full max-w-[500px]">
                             <Link href="/accomodation#standard" className="block rounded-lg p-4 shadow-[0_0_15px_rgba(165,180,252,0.5)]">
-                                <Image alt="" src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?auto=format&amp;fit=crop&amp;q=80&amp;w=1160" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
+                                <Image alt="" src="/imgs/room.png" width={500} height={500} className="h-56 w-full rounded-md object-cover" />
 
                                 <div className="mt-2">
                                     <dl>
@@ -88,7 +88,7 @@ export default function Rooms() {
                                             <div className="mt-1.5 sm:mt-0">
                                                 <p className="text-gray-500">Room Area</p>
 
-                                                <p className="font-medium">1000 Sqm</p>
+                                                <p className="font-medium">56 Sqm</p>
                                             </div>
                                         </div>
 

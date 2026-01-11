@@ -18,10 +18,10 @@ export default function Region() {
                     </div>
                     <div className="font-cormorant">
                         <p className="mb-2" >
-                            Munduk is home to some of Bali's most enchanting natural landscaping, where the serene caldera lakes meet ancient tropical forest. The twin lakes – tamblingan and buyan rest quickly in the highland, often veiled in  the morning mist, creating a dream-like setting that involves reflection and awe. These sacred waters are surrounded by dense, unspoiled rainforest, alike with birdsong, fresh mountain air and the calming rhythm of nature.
+                            Munduk is home to some of Bali's most enchanting natural landscaping, where the serene caldera lakes meet ancient tropical forest. The twin lakes – Tamblingan and Buyan rest quickly in the highland, often veiled in  the morning mist, creating a dream-like setting that involves reflection and awe. These sacred waters are surrounded by dense, unspoiled rainforest, alike with birdsong, fresh mountain air and the calming rhythm of nature.
                         </p>
                         <p>
-                            Wandering through Munduk’s forest, you will find hidden waterfalls, moss – covered trees and peaceful traits that led to breathtaking view points, whether you are seeking solitude in spiration , or  deeper connection to the earth, lakes, and forest of munduk offers a sanctuary for the senses and the soul
+                            Wandering through Munduk’s hills, you will find hidden waterfalls, moss – covered trees and peaceful traits that led to breathtaking view points, whether you are seeking solitude inspiration , or  deeper connection to the earth, lakes, and forest of munduk offers a sanctuary for the senses and the soul
                         </p>
                     </div>
                 </div>

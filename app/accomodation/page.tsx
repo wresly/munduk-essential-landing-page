@@ -27,7 +27,7 @@ export default function Accomodation() {
                             <div className="mt-1.5 sm:mt-0">
                                 <p className="text-gray-500">Room Area</p>
 
-                                <p className="font-medium">1000 Sqm</p>
+                                <p className="font-medium">56 Sqm</p>
                             </div>
                         </div>
 

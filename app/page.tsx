@@ -9,8 +9,8 @@ import Rooms from "./components/rooms";
 export default function Home() {
   return (
     <div>
-      <HeroSection background={"/imgs/hero.webp"}>
-        <div className="h-[80vh] absolute inset-0 bg-black/50" />
+      <HeroSection background={"/imgs/hero.jpeg"}>
+        {/* <div className="h-[80vh] absolute inset-0 bg-black/0" /> */}
         <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
             <h1 className={"font-playfair text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl"}>
