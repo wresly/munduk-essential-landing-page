@@ -4,7 +4,7 @@ import Image from "next/image"
 export default function About() {
     return (
         <>
-            <Hero background={"/imgs/about3.jpg"}>
+            <Hero background={"/imgs/dining_hero.jpg"}>
                 <div className="relative mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
 
                 </div>
